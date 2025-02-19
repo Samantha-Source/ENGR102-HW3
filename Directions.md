@@ -1,4 +1,4 @@
-1 - Review the starter code shown below. Your task is to complete the function at the bottom of the code so that it emulates the given formula.
+1 - Review the starter code shown in HW3.py. Your task is to complete the function at the bottom of the code so that it emulates the given formula.
 
 2 - Review and refine your existing plan to allocate the work among your team members. For example, you might decide that one student will write the first draft of the algorithm, another will check it and write tests, and the third can implement the algorithm in Python. 
 

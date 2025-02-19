@@ -104,9 +104,17 @@ def z_score(x, mu, sigma):
     
     Returns the z-score of x
     """
+
+    '''
+    Z-Score = (x - populationMean(mu)) / populationStandardDeviation(sigma)
+    '''
     
-    # Participating group member names go in this comment              
+    # Participating group member names go in this comment 
+    # Samantha Brown
+    # Darin Gonder
+    # Olivia Ort
 
     # Your code goes between this comment and the return statement
     
+
     return # Place the calculated z-score result between the return statement and this comment so it will be returned by the z_score function
