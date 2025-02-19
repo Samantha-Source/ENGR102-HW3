@@ -106,7 +106,7 @@ def z_score(x, mu, sigma):
     """
 
     '''
-    Z-Score = (x - populationMean(mu)) / populationStandardDeviation(sigma)
+    Z-Score = (x - population mean(mu)) / population standard deviation(sigma)
     '''
     
     # Participating group member names go in this comment 
@@ -115,6 +115,16 @@ def z_score(x, mu, sigma):
     # Olivia Ort
 
     # Your code goes between this comment and the return statement
-    
+        # pop_mean = mean(x)
+        # std_dev = stdev(x, pop_mean)
 
-    return # Place the calculated z-score result between the return statement and this comment so it will be returned by the z_score function
+
+
+
+    output = ((x - mu) / sigma)
+        # print (x, mu, sigma)
+    #print (output)
+    return output# Place the calculated z-score result between the return statement and this comment so it will be returned by the z_score function
+
+
+test_z_score_function()
