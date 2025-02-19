@@ -126,5 +126,27 @@ def z_score(x, mu, sigma):
     #print (output)
     return output# Place the calculated z-score result between the return statement and this comment so it will be returned by the z_score function
 
-
+'''
+The tester function that the teachers will call to check our function
+'''
 test_z_score_function()
+
+
+
+'''
+TESTER
+created by us to test our function
+'''
+
+def tester(data_set, x):
+    mu = mean(data_set)
+    sigma = stdev(data_set, mu)
+
+
+    output = z_score(x, mu, sigma)
+
+    print ("mu: ", mu)
+    print ("sigma: ", sigma)
+    print ("z-score: ", output)
+
+tester(population2, greatest(population2))
