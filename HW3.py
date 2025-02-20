@@ -96,6 +96,7 @@ def test_z_score_function():
 # participated in the group assignment work           #
 #######################################################
 
+
 def z_score(x, mu, sigma):
     """
     x is the population item
@@ -133,6 +134,7 @@ test_z_score_function()
 
 
 
+
 '''
 TESTER
 created by us to test our function
@@ -149,4 +151,24 @@ def tester(data_set, x):
     print ("sigma: ", sigma)
     print ("z-score: ", output)
 
-tester(population2, greatest(population2))
+'''
+Test case 1:
+Expected output = 0
+'''
+def test_one():
+    test_pop = [1, 2, 3]
+    x = 2
+    return (tester(test_pop, x))
+
+'''
+Tst case 2:
+Expected output = 0.6963106238
+'''
+def test_two():
+    test_pop = [-1, -3, -5, -7, -9, 9, 7, 5, 3, 1]
+    x = 4
+    return (tester(test_pop, x))
+
+# tester(test_one)
+# test_one()
+test_two()
