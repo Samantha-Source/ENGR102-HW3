@@ -161,7 +161,7 @@ def test_one():
     return (tester(test_pop, x))
 
 '''
-Tst case 2:
+Test case 2:
 Expected output = 0.6963106238
 '''
 def test_two():
@@ -169,6 +169,16 @@ def test_two():
     x = 4
     return (tester(test_pop, x))
 
+'''
+Test case 3:
+Expected output = -0.2946594440
+'''
+def test_three():
+    test_pop = [1, 5, 11, 74, 62, 33, 8, -99, 5, 2, -7, 64, 42]
+    x = 3
+    return (tester(test_pop, x))
+
 # tester(test_one)
 # test_one()
-test_two()
+# test_two()
+test_three()
