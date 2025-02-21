@@ -170,6 +170,6 @@ def test_three():
     return (tester(test_pop, x))
 
 
-# test_one()
-# test_two()
+test_one()
+test_two()
 test_three()
